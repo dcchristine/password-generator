@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1a1a1a;
+    color: hsl(41, 81%, 62%);
+    text-align: center;
+    user-select: none;
+    font-family: monospace;
+    
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+
+#generatedPassword{
+    background-color:hsl(41, 81%, 62%) ;
+    color: green;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 1rem;
+    margin: 0.4rem;
+    user-select:text;
+    width: 80%;
+    text-justify: distribute-all-lines;
+    height: auto;
+    word-wrap: break-word;
+}
+
+button {
+    width: max-content;
+    padding: 20px 10px;
+    border-radius: 15%;
+    border-style:none;
+    background-color: hsl(30, 90%, 60%);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(36, 60%, 50%);
+}
+
+button:active {
+    background-color: hsl(36, 60%, 70%);
+}
+
+
+.slidecontainer {
+    width: 100%;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 80%;
+    height: 25px;
+    background: #fafafa;
+    outline: none;
+    opacity: 0.8;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: rgb(255, 200, 0);
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+
+
+input[type="checkbox"]{
+    accent-color: hsl(36, 60%, 70%);
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+}
+
+#msg{
+    background-color: #fafafa;
+    width: max-content;
+    color: #ffffff;
+    border: 5px solid hsl(30, 90%, 60%);
+    user-select: none;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GENERATE PASSWORD</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    
+</head>
+<body>
+    <section>
+        <div class="flex">
+            <h1>RANDOM PASSWORD GENERATOR</h1>
+            <button id="generate" onclick="getPassword()">GENERATE</button>
+        </div>
+            <p id="generatedPassword"></p>
+            <input type="range" min="4" max="25" step="1" class="slider" id="PWRange"> 
+            <p>Password Length : <span id="demo"></span> characters</p>
+            <div>
+                <input type="checkbox" name="Lower Case" id="includeLowerCase"> <label for="Lower Case">Lower Case(a-z)</label>
+                <input type="checkbox" name="Upper Case" id="includeUpperCase"> <label for="Lower Case">Upper Case(A-Z)</label>
+                <input type="checkbox" name="Numbers" id="includeNumbers"> <label for="Lower Case">Numbers(0-9)</label>
+                <input type="checkbox" name="Symbols" id="includeSymbols"> <label for="Lower Case">Special characters</label>
+            </div>
+    </section>
+    <script src="generate-pw.js"></script>
+
+</body>
+</html>
